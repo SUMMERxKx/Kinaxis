@@ -4,8 +4,8 @@ import { useContext, useEffect } from 'react';
 import { Context } from '../../context/Context';
 
 const Main = () => {
-  const prompt1 = "Who are Visier Solution";
-  const prompt2 = "Resources provided by Visier Solution";
+  const prompt1 = "Who are Kinaxis";
+  const prompt2 = "Resources provided by Kinaxis";
   const prompt3 = "How is AI is good for your business";
   const prompt4 = "Advantags of AI in HR";
 
@@ -40,7 +40,7 @@ const Main = () => {
   return (
     <div className='main'>
       <div className="nav">
-        <p>Visier Solution</p>
+        <p>Kinaxis</p>
         <img src={assets.user_icon} alt="" />
       </div>
       <div className="main-container">
@@ -49,7 +49,7 @@ const Main = () => {
         <>
           <div className="greet">
               <p><span>Hello, User.</span></p>
-              <p>Welcome to the Visier Solution ChatBot</p>
+              <p>Welcome to the Kinaxis ChatBot</p>
           </div>
           <div className="cards">
               <div className="card" onClick={() => handleCardClick(prompt1)}>

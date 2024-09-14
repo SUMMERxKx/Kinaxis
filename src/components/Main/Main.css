@@ -21,7 +21,7 @@ body {
 
 /* Header styling */
 .chatbot-header {
-  background-color: #24a3a9; /* Teal */
+  background-color: #ff0000; /* Red for the header */
   color: #ffffff; /* White text */
   padding: 15px;
   font-size: 1.5em;
@@ -48,7 +48,7 @@ body {
 }
 
 .user-message {
-  background-color: #24a3a9; /* Teal background */
+  background-color: #ff0000; /* Red background for user messages */
   color: #ffffff; /* White text */
   text-align: right;
 }
@@ -75,7 +75,7 @@ body {
 }
 
 .input-area button {
-  background-color: #24a3a9; /* Teal */
+  background-color: #ff0000; /* Red for button */
   color: white;
   border: none;
   padding: 10px 20px;
@@ -84,7 +84,7 @@ body {
 }
 
 .input-area button:hover {
-  background-color: #1e8b91; /* Darker teal on hover */
+  background-color: #cc0000; /* Darker red on hover */
 }
 
 /* Responsive design */
